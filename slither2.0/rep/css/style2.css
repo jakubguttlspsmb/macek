@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  text-align: center;
+}
+#nadpis {
+  font-family: "Roboto", sans-serif;
+  font-size: 6em;
+}
+#link,
+#link:visited {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 4em;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  border: solid 1px black;
+  padding: 0.5em;
+  border-radius: 2em;
+}
+#macek {
+  position: absolute;
+  width: 40%;
+  top: 3%;
+  left: 30%;
+  z-index: -1;
+}
+
+#text {
+  font-size: 3em;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+
+}
+#text > div {
+  background-color: white;
+  border: solid black 1px;
+  width: 20%;
+  margin: 10px;
+  text-align: center;
+  padding: 1.5%;
+  font-size: 30px;
+}
